@@ -11,6 +11,16 @@
 <thead>
 <tr><td rowspan="1" colspan="3">TC6 Log out</td></tr>
 </thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/4.7.9/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sign Out</td>
+	<td></td>
+</tr>
 
 </tbody></table>
 </body>

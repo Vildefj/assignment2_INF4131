@@ -28,7 +28,12 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>name=shippingModuleAndMethod[method_code]</td>
+	<td>document.checkout_2.elements['shippingModuleAndMethod[method_code]'][1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.checkout_2.elements['shippingModuleAndMethod[method_code]'][1]</td>
 	<td></td>
 </tr>
 <tr>
@@ -42,9 +47,14 @@
 	<td></td>
 </tr>
 <tr>
+	<td>waitForVisible</td>
+	<td>//li[2]/strong</td>
+	<td>$8.94</td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>//li[3]/strong</td>
-	<td>$1,722.24</td>
+	<td>$306.94</td>
 </tr>
 </tbody></table>
 </body>

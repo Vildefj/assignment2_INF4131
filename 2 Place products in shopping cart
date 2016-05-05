@@ -28,7 +28,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>xpath=(//input[@value='Add To Cart'])[2]</td>
+	<td>xpath=(//input[@value='Add To Cart'])[1]</td>
 	<td></td>
 </tr>
 <tr>
@@ -38,7 +38,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>xpath=(//input[@value='Add To Cart'])[3]</td>
+	<td>xpath=(//input[@value='Add To Cart'])[2]</td>
 	<td></td>
 </tr>
 <tr>
@@ -53,13 +53,13 @@
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>xpath=(//a[contains(text(),'KARLSTAD modular sofa')])[2]</td>
-	<td>KARLSTAD modular sofa</td>
+	<td>xpath=(//a[contains(text(),'ARILD Chair')])[2]</td>
+	<td>ARILD Chair</td>
 </tr>
 <tr>
 	<td>verifyText</td>
 	<td>css=strong.shopping-total-price.price</td>
-	<td>$977.00</td>
+	<td>$748.00</td>
 </tr>
 </tbody></table>
 </body>
